@@ -1,0 +1,31 @@
+name: flutter_audio_recorder2
+description: Flutter Audio Record Plugin that supports Record Pause Resume Stop and provide access to audio level metering properties average power peak power.
+version: 0.0.1
+authors:
+  - wenyan <nik.lee.nyc@gmail.com>
+  - tao zhu <tao@zeno.group>
+  - anna janusz <anna.janusz96@gmail.com>
+homepage: https://github.com/hanyska/flutter_audio_recorder2
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  path: ^1.8.0
+  file: ^6.1.1
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.flutter_audio_recorder2
+        pluginClass: FlutterAudioRecorder2Plugin
+      ios:
+        pluginClass: FlutterAudioRecorder2Plugin

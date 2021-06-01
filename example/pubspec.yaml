@@ -1,0 +1,23 @@
+name: flutter_audio_recorder2_example
+description: Demonstrates how to use the flutter_audio_recorder2 plugin.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.0.2
+  file: ^6.1.1
+  audioplayers: ^0.19.0
+
+  flutter_audio_recorder2:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
